@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>biogeneration.Druidlike</packageId>
+  <name>Druid-like</name>
+  <supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <author>Biogeneration</author>
+  <url>https://github.com/biogeneration/Druidlike</url>
+  <description>
+Additional Druid-like alerts and traits:
+- Alerts for all downed animals
+- Animal Lover Trait: +2 animals and can detect animals that are down
+  </description>
+</ModMetaData>

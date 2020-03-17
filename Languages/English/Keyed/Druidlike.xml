@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <Druidlike_ModName>Druid-like</Druidlike_ModName>
+
+  <AlertTaintedApparel>Tainted apparel</AlertTaintedApparel>
+  <AlertTaintedApparelDesc>Colonists are wearing tainted apparel from a corpse:\n\n{0}\nThis negatively affects their mood; try to give them different clothing.</AlertTaintedApparelDesc>
+
+  <AlertDownedAnimalsSettingLabel>Downed Animals Alert</AlertDownedAnimalsSettingLabel>
+  <AlertDownedAnimalsSettingDesc>A colonist with high enough animal skill (8) or Animal Lover Trait will be notified when an animal is downed.</AlertDownedAnimalsSettingDesc>
+  <AlertDownedAnimal>Downed Animal</AlertDownedAnimal>
+  <AlertDownedAnimalDesc>{0} is aware that a nearby animal is downed:\n\n{1}</AlertDownedAnimalDesc>
+  <AlertDownedAnimals>Downed Animals</AlertDownedAnimals>
+  <AlertDownedAnimalsDesc>{0} is aware that nearby animals are downed:\n\n{1}</AlertDownedAnimalsDesc>
+</LanguageData>

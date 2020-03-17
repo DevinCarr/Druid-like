@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TraitDef>
+    <defName>AnimalLover</defName>
+    <degreeDatas>
+      <li>
+        <label>animal lover</label>
+        <description>{PAWN_nameDef} is sensitive to animals in pain. {PAWN_pronoun} can tell when an animal has been downed.</description>
+        <skillGains>
+          <li>
+            <key>Animals</key>
+            <value>2</value>
+          </li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+
+    <conflictingTraits>
+      <li>Psychopath</li>
+    </conflictingTraits>
+  </TraitDef>
+
+</Defs>
