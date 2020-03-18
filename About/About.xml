@@ -5,11 +5,26 @@
   <supportedVersions>
     <li>1.1</li>
   </supportedVersions>
+  <modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+  </modDependencies>
   <author>Biogeneration</author>
   <url>https://github.com/DevinCarr/Druid-like</url>
   <description>
-Additional Druid-like alerts and traits:
+Druid-like aspects mod for RimWorld.
+
 - Alerts for all downed animals
 - Animal Lover Trait: +2 animals and can detect animals that are down
+- Loner Trait: A isolated individual and enjoys working on their own.
+
+Updates:
+1.1.0.2
+- New Loner Trait
+- New dependency: Harmony
   </description>
 </ModMetaData>

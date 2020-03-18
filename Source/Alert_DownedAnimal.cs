@@ -25,7 +25,7 @@ namespace Biogeneration.Druidlike.Alerts
                         continue;
                     }
 
-                    if (ableColonist.story.traits.HasTrait(DruidlikeDefOf.AnimalLover) || ableColonist.skills.GetSkill(SkillDefOf.Animals).levelInt >= AnimalSkillToAlert)
+                    if (ableColonist.story.traits.DegreeOfTrait(DruidlikeDefOf.AnimalLover) > 0 || ableColonist.skills.GetSkill(SkillDefOf.Animals).levelInt >= AnimalSkillToAlert)
                     {
                         colonistWithAnimalRescueResult.Add(ableColonist);
                     }

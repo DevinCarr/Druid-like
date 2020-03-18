@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>IsolatedLoner</defName>
+    <requiredTraits>
+      <li>Loner</li>
+    </requiredTraits>
+    <durationDays>0.33</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+        <li>
+          <label>isolated loner</label>
+          <description>I got to enjoy my alone time</description>
+          <baseMoodEffect>+3</baseMoodEffect>
+        </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

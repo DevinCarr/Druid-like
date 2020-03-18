@@ -6,6 +6,10 @@ namespace Biogeneration.Druidlike
     public static class DruidlikeDefOf
     {
         public static TraitDef AnimalLover;
+        public static TraitDef Loner;
+
+        public static ThoughtDef LonerInRelationship;
+        public static ThoughtDef IsolatedLoner;
 
         static DruidlikeDefOf()
         {

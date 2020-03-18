@@ -21,4 +21,21 @@
     </conflictingTraits>
   </TraitDef>
 
+  <TraitDef>
+    <defName>Loner</defName>
+    <degreeDatas>
+      <li>
+        <label>loner</label>
+        <description>{PAWN_nameDef} is an isolated individual and enjoys working on their own.</description>
+        <statOffsets>
+          <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+
+    <conflictingTraits>
+      <li>Kind</li>
+    </conflictingTraits>
+  </TraitDef>
+
 </Defs>

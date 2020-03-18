@@ -1,7 +1,8 @@
+using System.Reflection;
 using UnityEngine;
 using Verse;
 
-namespace Biogeneration.Druidlike.Alerts
+namespace Biogeneration.Druidlike
 {
     public class DruidlikeSettings : ModSettings
     {
@@ -22,6 +23,8 @@ namespace Biogeneration.Druidlike.Alerts
         public DruidlikeMod(ModContentPack content) : base(content)
         {
             this.settings = GetSettings<DruidlikeSettings>();
+            var assembly = Assembly.GetExecutingAssembly();
+            new HarmonyLib.Harmony("Biogeneration.Druidlike").PatchAll(assembly);
         }
 
         public override void DoSettingsWindowContents(Rect inRect)

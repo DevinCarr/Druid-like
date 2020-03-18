@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThoughtDef>
+    <defName>LonerInRelationship</defName>
+    <workerClass>Biogeneration.Druidlike.ThoughtWorkers.ThoughtWorker_IsSocialForLoner</workerClass>
+    <requiredTraits>
+      <li>Loner</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>loner in relationship</label>
+        <description>I'm in a relationship and I am not used to this.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
